@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+</head>
+<body>
+    <action="studentdetails.jsp" method="post">
+   <li>
+        <span>Enter your name: </span>
+        <div><input type="text" name="student_name" required></div><br>
+    </li> 
+
+   <li>
+        <span>Select your gender: </span>
+        <div>male<input type="radio" name="gender" value="male"></div><br>
+        <div>female<input type="radio" name="gender" value="female"/><div><br>
+    </li> 
+
+     <li>
+        <span>DOB: </span>
+        <div><input type="date" name="bday"></div><br>
+    </li>
+
+    <li>
+       <span>Telephone number: </span>
+        <div><input type="tel" name="usrtel" required></div><br>
+    </li>
+
+    <li> 
+        <span>Enter E-mail: </span>
+        <div><input type="email" name="email" required></div><br>
+        
+    </li>
+
+    <li>
+        <span>select country</span>
+        <select>
+            <option value="INDIA">INDIA</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option><br><br>
+          </select>
+    </li>
+
+    <li>
+       <span>Enter Address</span>
+       <div><input type="text" name="address"></div><br>
+    </li>
+
+    <li>
+        <span>Select your favorite color: </span>
+        <div><input type="color" name="favcolor"></div><br>
+    </li>
+
+    <button type="submit" value="submit">submit</button>
+</form>
+
+</body>
+</html>
+    
+    
+
