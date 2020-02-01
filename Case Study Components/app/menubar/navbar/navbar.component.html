@@ -1,0 +1,22 @@
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+         <a  class="navbar-brand" [routerLink]="['/login']"><img src=" assets/pic.jpg " style="background: white" width="60" height="50" class="d-inline-block align-top"        alt  ="">pixogram
+         </a>
+
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <div class="navbar-nav m-auto">
+                 <a class="nav-item nav-link m-auto" [routerLink]="['/upload']" >Upload Media </a>
+                 <a class="nav-item nav-link m-auto" [routerLink]="['/mymedia']">My Media</a>
+                 <a class="nav-item nav-link m-auto" [routerLink]="['/followers']">Followers/Following</a>
+             </div>
+               <div class="col-3 d-flex flex-column" >
+         <a   [routerLink]="['/account']" class="badge badge-primary bd-highlight p-2 m-auto" >Account </a>            
+     </div>
+         </div>
+
+     </nav>

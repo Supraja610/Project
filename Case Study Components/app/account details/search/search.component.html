@@ -1,0 +1,35 @@
+<div>
+    <div class="container-fluid">
+   <div class="row">
+       <div class="col-3 d-flex flex-column">
+           <a [routerLink]="['/account']" class="badge  bd-highlight p-2 m-3 border-bottom border-dark" >Account</a>
+           <a [routerLink]="['/newsfeed']" class="badge badge-secondary bd-highlight p-2 m-3">Newsfeed</a>
+           <a [routerLink]="['/blocked']"class="badge badge-info bd-highlight p-2 m-3">Blocked Account</a>
+           <a  class="badge badge-info bd-highlight p-2 m-3"> Search</a>
+           <a  [routerLink]="['/login']"class="badge badge-info bd-highlight p-2 m-3">Logout</a>
+       </div>
+
+
+<div class="col-lg-8 mt-2">
+<div class=" bg-white p-4">
+
+       <h5 class="h2 border-bottom border-dark">Search</h5>
+   <div class="row">
+       <div class="col-12">
+           <form class="p-4">
+               <div class="form-group row">
+                   <div class="col-8">
+                       <input class="form-control mt-2 lead border-dark" type="search"
+                           placeholder="Search media, tags and users..." aria-label="Search">
+                   </div>
+                   <div class="col-auto">
+                       <button class="btn btn-primary mt-2 lead" type="submit">Search</button>
+                   </div>
+               </div>
+           </form>
+       </div>
+   </div>
+</div>
+</div>
+</div>
+</div>

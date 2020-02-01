@@ -1,0 +1,78 @@
+<div>
+    <div class="container-fluid">
+   <div class="row">
+       <div class="col-3 d-flex flex-column">
+           <a [routerLink]="['/upload']"class="badge  bd-highlight p-2 m-3  border-bottom border-dark" >Upload media</a>
+           <a [routerLink]="['/singlemedia']" class="badge badge-secondary bd-highlight p-2 m-3">single media </a>
+           <a [routerLink]="['/multiplemedia']" class="badge badge-info bd-highlight p-2 m-3">Multiple media</a>
+       </div>
+
+
+<div class="col-6">
+    <div class="container-fluid m-auto">
+        <div class="row">
+            <div class="col-12">
+                <p class="h2 border-bottom border-dark"> single media </p>
+            </div>
+        </div>
+    </div>
+        <br>
+        <div class="col-12 ">
+            <div>
+                <img width="100%" height="250px" src="assets/profile.png">
+                
+                <form action="#" class="pt-4">
+
+                    <div class="card-text d-flex">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                            </div>
+                            <div class="custom-file">
+                              <input type="file" class="custom-file-input" id="inputGroupFile01"
+                                aria-describedby="inputGroupFileAddon01">
+                              <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                            </div>
+                          </div>
+                    </div>
+               
+                    <div class="form-group row mt-2">
+                        <label for="title" class="col-3 col-form-label">Title</label>
+                        <div class="col-9">
+                            <input type="text" class="form-control" name="title" id="title">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="description" class="col-3 col-form-label">Description</label>
+                        <div class="col-9">
+                            <input type="text" class="form-control" name="description" id="description">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="tags" class="col-3 col-form-label">Tags</label>
+                        <div class="col-9">
+                            <input type="text" class="form-control" name="tags" id="tags">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center lead">
+                            <a href="#" class="badge badge-primary m-1">Sepia</a>
+                            <a href="#" class="badge badge-primary m-1">Gray</a>
+                            <a href="#" class="badge badge-primary m-1">Brightness</a>
+                            <a href="#" class="badge badge-primary m-1">Contrast</a>
+                         </div>
+                     </div>
+
+                                <div class="container-fluid  ">
+                                    <p class="border-bottom border-dark"></p>
+                            
+                           
+                        </div>
+                        
+                  
+                </form>
+            </div>
+
+        </div>
+ 
+    </div>
